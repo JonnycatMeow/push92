@@ -1,3 +1,4 @@
+#The windows is from here https://stackoverflow.com/questions/49659193/docker-node-js-windows
 FROM mcr.microsoft.com/windows/servercore:1803 as installer
 
 SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop';$ProgressPreference='silentlyContinue';"]
